@@ -14,7 +14,7 @@ export IFS=" "
 i=0;
 for code in $responseline; do
         if [ $code == 200 ]; then
-		echo "alles roger";
+		echo "website is okay.";
                 exit 0;
         fi
         if [ $code == 500 ]; then
