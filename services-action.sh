@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## ./services-action.sh restart apache2=> To restart the apache2 server
+## ./services-action.sh restart apache2 => To restart the apache2 server
 
 
 initPath="/etc/init.d/"
