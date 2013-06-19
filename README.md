@@ -11,8 +11,8 @@ This script is very basic and maybe not the highest sophisticated solution, but 
 
 Add it to crontab and execute the status.sh script every minute.
 
-#
-# m h  dom mon dow   command
-* * * * * bash /opt/restartscript/status.sh http://www.website.com > /opt/restartscript/log 2>&1
+    #
+    # m h  dom mon dow   command
+    * * * * * bash /opt/restartscript/status.sh http://www.website.com > /opt/restartscript/log 2>&1
 
 
