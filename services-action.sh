@@ -1,7 +1,7 @@
 #!/bin/bash
 
-## ./services-action.sh restart => To restart all the services
-## ./services-action.sh restart postfix => To restart specific service (postfix in this case)
+## ./services-action.sh restart apache2=> To restart the apache2 server
+
 
 initPath="/etc/init.d/"
 services="apache2"
