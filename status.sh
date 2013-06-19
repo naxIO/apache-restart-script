@@ -18,7 +18,7 @@ for code in $responseline; do
                 exit 0;
         fi
         if [ $code == 500 ]; then
-                services-action.sh restart
+                services-action.sh restart apache2
         fi
         if [ $i == 0 ]; then
                 break;
